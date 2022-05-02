@@ -1,0 +1,124 @@
+/*!
+ * DISCOVERY LAB DERIVED FROM BELOW
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+	/*padding-top: 54px;*/
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+@media (min-width: 992px) {
+	body {
+		/*padding-top: 56px;*/
+	}
+}
+.carousel-item {
+	height: 65vh;
+	/*max-height: 100%;*/
+	width: 100%;
+	background: no-repeat center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-item.active {
+	height: auto;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+}
+.carousel-indicators li {
+	background-color: #2b2b2b;
+	background-color: rgba(70, 7, 0, 0.25);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.carousel-indicators .active {
+	background-color: orangered;
+}
+.carousel img {
+	max-width: 100%;
+	height: auto;
+}
+.nav-item a:hover {
+	background-color: rgba(76, 154, 173, 0.17);
+}
+.nav-item a.active {
+	background-color: rgba(76, 154, 173, 0.38);
+}
+.navbar-brand {
+	/*margin: 0;*/
+	/*padding: 0;*/
+	font-size: 23pt;
+}
+.navbar {
+	padding: 0;
+	margin: 0;
+	/*background-color: #264d56;*/
+	background-color: #363636;
+}
+.navbar a {
+	line-height: 45px;
+}
+.card {
+	border: 1px solid #264d56;
+}
+.card-header {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: #264d56;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+.card-header {
+	color: white;
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+	/*background-color: rgba(190, 209, 243, 0.78);*/
+}
+.breadcrumb {
+	background-color: #7b1142;
+}
+.breadcrumb-item.active {
+	color: white;
+}
+.breadcrumb-item.active::before {
+	color: white;
+}
+.breadcrumb-item a {
+	text-decoration: underline;
+}
+.news-link {
+	float: right;
+}
+hr {
+	display: inline-block;
+	width: 100%;
+}
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	stroke: 10px black;
+}
+.project a {
+	background-color: #264d56;
+	color: white;
+}
+img.navbar-brand-image{
+	max-height: 60px;
+	display: block;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+
+.carousel-inner img {
+	height: 450px !important;
+	/*width: 1200px !important;*/
+}
